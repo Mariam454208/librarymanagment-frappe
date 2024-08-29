@@ -1,0 +1,208 @@
+2024-08-29 00:16:35,393 Worker rq:worker:8c1fad6b3f1149e78d8471a01538a5ab started with PID 5983, version 1.16.2
+2024-08-29 00:16:35,393 Subscribing to channel rq:pubsub:8c1fad6b3f1149e78d8471a01538a5ab
+2024-08-29 00:16:35,394 *** Listening on home-techsolutionz-this-bench:short, home-techsolutionz-this-bench:default, home-techsolutionz-this-bench:long...
+2024-08-29 00:16:35,395 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 00:16:35,396 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 00:16:35,397 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 00:21:59,720 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: mariamalherif90@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='library.localhost', user='Administrator') (library.localhost::e7e047fa-0f60-480b-82cf-50bc25a4df5d)
+2024-08-29 00:22:00,041 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'mariamalherif90@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='library.localhost', user='Administrator') (library.localhost::c1734f5e-6cd5-4bfb-aa36-9b0451785812)
+2024-08-29 00:25:37,454 Worker 8c1fad6b3f1149e78d8471a01538a5ab [PID 5983]: warm shut down requested
+2024-08-29 00:25:37,457 Unsubscribing from channel rq:pubsub:8c1fad6b3f1149e78d8471a01538a5ab
+2024-08-29 00:25:40,601 Worker rq:worker:f5ea898d3a0e4e6aaf43cb112704f319 started with PID 9245, version 1.16.2
+2024-08-29 00:25:40,601 Subscribing to channel rq:pubsub:f5ea898d3a0e4e6aaf43cb112704f319
+2024-08-29 00:25:40,603 *** Listening on home-techsolutionz-this-bench:short, home-techsolutionz-this-bench:default, home-techsolutionz-this-bench:long...
+2024-08-29 00:25:40,604 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 00:25:40,605 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 00:25:40,606 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 00:39:10,702 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 00:39:10,707 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 00:39:10,711 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 00:49:59,792 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Article', 'name': 'p48sg1omug'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.localhost', user='Administrator') (library.localhost::9fcc3c8e-f901-464f-8232-2ef2f10f8478)
+2024-08-29 00:49:59,966 home-techsolutionz-this-bench:default: Job OK (library.localhost::9fcc3c8e-f901-464f-8232-2ef2f10f8478)
+2024-08-29 00:49:59,966 Result is kept for 600 seconds
+2024-08-29 00:49:59,977 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 00:49:59,982 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 00:49:59,984 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 01:03:30,187 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 01:03:30,192 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 01:03:30,196 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 01:17:00,267 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 01:17:00,271 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 01:17:00,273 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 01:30:30,426 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 01:30:30,430 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 01:30:30,432 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 01:44:00,513 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 01:44:00,517 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 01:44:00,520 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 02:01:33,083 Worker rq:worker:7f8202eb2624443e91659d9ebfe5f7be started with PID 5593, version 1.16.2
+2024-08-29 02:01:33,086 Subscribing to channel rq:pubsub:7f8202eb2624443e91659d9ebfe5f7be
+2024-08-29 02:01:33,094 *** Listening on home-techsolutionz-this-bench:short, home-techsolutionz-this-bench:default, home-techsolutionz-this-bench:long...
+2024-08-29 02:01:33,099 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 02:01:33,115 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 02:01:33,121 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 02:15:03,322 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 02:15:03,325 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 02:15:03,328 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 02:28:33,449 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 02:28:33,451 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 02:28:33,452 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 02:42:03,522 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 02:42:03,524 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 02:42:03,528 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 02:55:33,606 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 02:55:33,608 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 02:55:33,610 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 03:07:10,208 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.search.website_search.update_index_for_path', kwargs={'path': 'articles/it-ends-with-us'}, method=<function update_index_for_path at 0x7a31a9eb95a0>, site='library.localhost', user='Administrator') (library.localhost::d1e2ed3d-eebc-42da-a0b5-7d1ff5225c2c)
+2024-08-29 03:07:10,935 home-techsolutionz-this-bench:default: Job OK (library.localhost::d1e2ed3d-eebc-42da-a0b5-7d1ff5225c2c)
+2024-08-29 03:07:10,935 Result is kept for 600 seconds
+2024-08-29 03:07:10,948 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 03:07:10,951 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 03:07:10,952 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 03:07:53,270 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.search.website_search.update_index_for_path', kwargs={'path': 'articles/a-pocketful-of-stars'}, method=<function update_index_for_path at 0x7a31a9eb95a0>, site='library.localhost', user='Administrator') (library.localhost::0c16a7b2-ede6-44f9-bd2b-10fd722374f3)
+2024-08-29 03:07:53,960 home-techsolutionz-this-bench:default: Job OK (library.localhost::0c16a7b2-ede6-44f9-bd2b-10fd722374f3)
+2024-08-29 03:07:53,960 Result is kept for 600 seconds
+2024-08-29 03:08:02,688 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.search.website_search.update_index_for_path', kwargs={'path': 'articles/rich-dad-poor-dad'}, method=<function update_index_for_path at 0x7a31a9eb95a0>, site='library.localhost', user='Administrator') (library.localhost::d071f2b0-6a7c-4687-a1b6-e147c3d2d6d1)
+2024-08-29 03:08:03,463 home-techsolutionz-this-bench:default: Job OK (library.localhost::d071f2b0-6a7c-4687-a1b6-e147c3d2d6d1)
+2024-08-29 03:08:03,464 Result is kept for 600 seconds
+2024-08-29 05:18:39,679 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 05:18:39,680 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 05:18:39,682 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-29 23:59:13,400 Worker rq:worker:f658c5cbe6c74fcfa435efbc3bb93306 started with PID 4994, version 1.16.2
+2024-08-29 23:59:13,407 Subscribing to channel rq:pubsub:f658c5cbe6c74fcfa435efbc3bb93306
+2024-08-29 23:59:13,427 *** Listening on home-techsolutionz-this-bench:short, home-techsolutionz-this-bench:default, home-techsolutionz-this-bench:long...
+2024-08-29 23:59:13,435 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-29 23:59:13,461 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-29 23:59:13,470 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-30 00:00:01,930 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.newsletter.newsletter.send_scheduled_ema..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7c32raam)
+2024-08-30 00:00:07,614 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7c32raam)
+2024-08-30 00:00:07,615 Result is kept for 600 seconds
+2024-08-30 00:00:07,645 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count', 'scheduled_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cmjvk1o)
+2024-08-30 00:00:09,109 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cmjvk1o)
+2024-08-30 00:00:09,109 Result is kept for 600 seconds
+2024-08-30 00:00:09,140 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'om7c..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cpdasms)
+2024-08-30 00:00:10,354 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cpdasms)
+2024-08-30 00:00:10,354 Result is kept for 600 seconds
+2024-08-30 00:00:10,384 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.social.doctype.energy_point_settings.energy_point_sett..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7d0n8tlv)
+2024-08-30 00:00:12,182 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7d0n8tlv)
+2024-08-30 00:00:12,182 Result is kept for 600 seconds
+2024-08-30 00:00:12,209 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_hourly_updates', 'sched..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cpj7ogt)
+2024-08-30 00:00:13,386 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cpj7ogt)
+2024-08-30 00:00:13,387 Result is kept for 600 seconds
+2024-08-30 00:00:13,410 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.user_settings.sync_user_settings', 'schedu..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7c72n8ip)
+2024-08-30 00:00:14,415 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7c72n8ip)
+2024-08-30 00:00:14,415 Result is kept for 600 seconds
+2024-08-30 00:00:14,438 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_contacts.google_contacts.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7do37hrc)
+2024-08-30 00:00:15,825 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7do37hrc)
+2024-08-30 00:00:15,826 Result is kept for 600 seconds
+2024-08-30 00:00:15,842 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7ced77vt)
+2024-08-30 00:00:16,701 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7ced77vt)
+2024-08-30 00:00:16,702 Result is kept for 600 seconds
+2024-08-30 00:00:16,715 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7co7cd6e)
+2024-08-30 00:00:18,049 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7co7cd6e)
+2024-08-30 00:00:18,050 Result is kept for 600 seconds
+2024-08-30 00:00:18,069 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'om..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7csd44de)
+2024-08-30 00:00:18,806 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7csd44de)
+2024-08-30 00:00:18,806 Result is kept for 600 seconds
+2024-08-30 00:00:18,816 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cbe4o09)
+2024-08-30 00:00:19,463 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cbe4o09)
+2024-08-30 00:00:19,463 Result is kept for 600 seconds
+2024-08-30 00:00:19,478 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_daily_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7dc8dnli)
+2024-08-30 00:00:20,175 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7dc8dnli)
+2024-08-30 00:00:20,175 Result is kept for 600 seconds
+2024-08-30 00:00:20,188 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cpqj55d)
+2024-08-30 00:00:20,814 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cpqj55d)
+2024-08-30 00:00:20,814 Result is kept for 600 seconds
+2024-08-30 00:00:20,830 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_daily_updates', 'schedu..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7daitj5h)
+2024-08-30 00:00:21,672 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7daitj5h)
+2024-08-30 00:00:21,673 Result is kept for 600 seconds
+2024-08-30 00:00:21,689 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7c0s53sk)
+2024-08-30 00:00:22,600 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7c0s53sk)
+2024-08-30 00:00:22,601 Result is kept for 600 seconds
+2024-08-30 00:00:22,615 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.prepared_report.prepared_report.expire_st..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cfqu1d4)
+2024-08-30 00:00:23,318 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cfqu1d4)
+2024-08-30 00:00:23,318 Result is kept for 600 seconds
+2024-08-30 00:00:23,344 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.doctype.event.event.send_event_digest', 'schedule..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cfaj1a1)
+2024-08-30 00:00:24,348 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cfaj1a1)
+2024-08-30 00:00:24,349 Result is kept for 600 seconds
+2024-08-30 00:00:24,369 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.sessions.clear_expired_sessions', 'scheduled_job_type'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7c0jltfj)
+2024-08-30 00:00:25,258 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7c0jltfj)
+2024-08-30 00:00:25,258 Result is kept for 600 seconds
+2024-08-30 00:00:25,280 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7ch812vq)
+2024-08-30 00:00:26,155 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7ch812vq)
+2024-08-30 00:00:26,155 Result is kept for 600 seconds
+2024-08-30 00:00:26,180 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7dc73vpr)
+2024-08-30 00:00:27,089 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7dc73vpr)
+2024-08-30 00:00:27,090 Result is kept for 600 seconds
+2024-08-30 00:00:27,107 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7ccpjkh3)
+2024-08-30 00:00:28,262 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7ccpjkh3)
+2024-08-30 00:00:28,262 Result is kept for 600 seconds
+2024-08-30 00:00:28,286 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_re..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7d1fb7pp)
+2024-08-30 00:00:29,889 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7d1fb7pp)
+2024-08-30 00:00:29,890 Result is kept for 600 seconds
+2024-08-30 00:00:29,909 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'om7cjgd6f0'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cjgd6f0)
+2024-08-30 00:00:30,763 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cjgd6f0)
+2024-08-30 00:00:30,764 Result is kept for 600 seconds
+2024-08-30 00:00:30,780 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7clb9n7g)
+2024-08-30 00:00:31,758 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7clb9n7g)
+2024-08-30 00:00:31,764 Result is kept for 600 seconds
+2024-08-30 00:00:31,794 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'om7c4f9d72'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7c4f9d72)
+2024-08-30 00:00:33,020 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7c4f9d72)
+2024-08-30 00:00:33,020 Result is kept for 600 seconds
+2024-08-30 00:00:33,036 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.page.backups.backups.delete_downloadable_backups'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7chsgn6j)
+2024-08-30 00:00:33,885 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7chsgn6j)
+2024-08-30 00:00:33,885 Result is kept for 600 seconds
+2024-08-30 00:00:33,900 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.notifications.clear_notifications', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cfgdg1l)
+2024-08-30 00:00:34,690 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cfgdg1l)
+2024-08-30 00:00:34,691 Result is kept for 600 seconds
+2024-08-30 00:00:34,709 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7d4irft3)
+2024-08-30 00:00:35,782 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7d4irft3)
+2024-08-30 00:00:35,782 Result is kept for 600 seconds
+2024-08-30 00:00:35,803 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.automation.doctype.auto_repeat.auto_repeat.create_repeated_entries', kwargs={'data': []}, method='frappe.automation.doctype.auto_repeat.auto_repeat.create_repeated_entries', site='library.localhost', user='Administrator') (library.localhost::2206094e-d90a-4ad4-a1d1-aa29b6726607)
+2024-08-30 00:00:36,598 home-techsolutionz-this-bench:default: Job OK (library.localhost::2206094e-d90a-4ad4-a1d1-aa29b6726607)
+2024-08-30 00:00:36,598 Result is kept for 600 seconds
+2024-08-30 00:04:01,194 home-techsolutionz-this-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.auto_email_report.auto_email_report.send..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7dngpb96)
+2024-08-30 00:04:03,850 home-techsolutionz-this-bench:long: Job OK (library.localhost::scheduled_job::om7dngpb96)
+2024-08-30 00:04:03,851 Result is kept for 600 seconds
+2024-08-30 00:04:03,872 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7ch812vq)
+2024-08-30 00:04:04,835 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7ch812vq)
+2024-08-30 00:04:04,835 Result is kept for 600 seconds
+2024-08-30 00:04:04,850 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'om7c4f9d72'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7c4f9d72)
+2024-08-30 00:04:06,101 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7c4f9d72)
+2024-08-30 00:04:06,102 Result is kept for 600 seconds
+2024-08-30 00:04:06,125 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'om7cjgd6f0'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cjgd6f0)
+2024-08-30 00:04:06,936 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cjgd6f0)
+2024-08-30 00:04:06,936 Result is kept for 600 seconds
+2024-08-30 00:08:00,722 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'om7cjgd6f0'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cjgd6f0)
+2024-08-30 00:08:01,522 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cjgd6f0)
+2024-08-30 00:08:01,522 Result is kept for 600 seconds
+2024-08-30 00:08:01,543 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7ch812vq)
+2024-08-30 00:08:02,309 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7ch812vq)
+2024-08-30 00:08:02,309 Result is kept for 600 seconds
+2024-08-30 00:08:02,324 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'om7c4f9d72'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7c4f9d72)
+2024-08-30 00:08:03,295 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7c4f9d72)
+2024-08-30 00:08:03,295 Result is kept for 600 seconds
+2024-08-30 00:08:03,314 home-techsolutionz-this-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.s3_backup_settings.s3_backup_sett..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7dg00lfe)
+2024-08-30 00:08:04,261 home-techsolutionz-this-bench:long: Job OK (library.localhost::scheduled_job::om7dg00lfe)
+2024-08-30 00:08:04,261 Result is kept for 600 seconds
+2024-08-30 00:08:04,279 home-techsolutionz-this-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.dropbox_settings.dropbox_settings..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7db2ltj0)
+2024-08-30 00:08:05,512 home-techsolutionz-this-bench:long: Job OK (library.localhost::scheduled_job::om7db2ltj0)
+2024-08-30 00:08:05,512 Result is kept for 600 seconds
+2024-08-30 00:08:05,534 home-techsolutionz-this-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_drive.google_drive.daily_b..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7droih1h)
+2024-08-30 00:08:06,973 home-techsolutionz-this-bench:long: Job OK (library.localhost::scheduled_job::om7droih1h)
+2024-08-30 00:08:06,974 Result is kept for 600 seconds
+2024-08-30 00:12:01,227 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'om7c4f9d72'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7c4f9d72)
+2024-08-30 00:12:02,566 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7c4f9d72)
+2024-08-30 00:12:02,567 Result is kept for 600 seconds
+2024-08-30 00:12:02,586 Cleaning registries for queue: home-techsolutionz-this-bench:short
+2024-08-30 00:12:02,589 Cleaning registries for queue: home-techsolutionz-this-bench:default
+2024-08-30 00:12:02,602 Cleaning registries for queue: home-techsolutionz-this-bench:long
+2024-08-30 00:12:02,606 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'om7cjgd6f0'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7cjgd6f0)
+2024-08-30 00:12:03,500 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7cjgd6f0)
+2024-08-30 00:12:03,502 Result is kept for 600 seconds
+2024-08-30 00:12:03,526 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7ch812vq)
+2024-08-30 00:12:04,315 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7ch812vq)
+2024-08-30 00:12:04,315 Result is kept for 600 seconds
+2024-08-30 00:12:04,342 home-techsolutionz-this-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost::scheduled_job::om7c0s53sk)
+2024-08-30 00:12:05,170 home-techsolutionz-this-bench:default: Job OK (library.localhost::scheduled_job::om7c0s53sk)
+2024-08-30 00:12:05,171 Result is kept for 600 seconds

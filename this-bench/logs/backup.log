@@ -1,0 +1,6 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_8205e73e29c78d66 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8205e73e29c78d66 | /usr/bin/gzip >> ./library.localhost/private/backups/20240830_000003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-08-30 00:00:11.895191
+Config  : /home/techsolutionz/this-bench/sites/library.localhost/private/backups/20240830_000003-library_localhost-site_config_backup.json 127.0B
+Database: /home/techsolutionz/this-bench/sites/library.localhost/private/backups/20240830_000003-library_localhost-database.sql.gz 223.1KiB
+Backup for Site library.localhost has been successfully completed

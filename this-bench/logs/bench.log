@@ -1,0 +1,55 @@
+2024-08-29 00:14:27,840 DEBUG cd this-bench && python3 -m venv env
+2024-08-29 00:14:31,067 DEBUG cd this-bench && /home/techsolutionz/this-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-08-29 00:14:33,094 DEBUG cd this-bench && /home/techsolutionz/this-bench/env/bin/python -m pip install --quiet wheel
+2024-08-29 00:14:34,301 LOG Getting frappe
+2024-08-29 00:14:34,301 DEBUG cd this-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-08-29 00:14:39,973 LOG Installing frappe
+2024-08-29 00:14:39,973 DEBUG cd /home/techsolutionz/this-bench && /home/techsolutionz/this-bench/env/bin/python -m pip install --quiet --upgrade -e /home/techsolutionz/this-bench/apps/frappe 
+2024-08-29 00:15:17,807 DEBUG cd /home/techsolutionz/this-bench/apps/frappe && yarn install --check-files
+2024-08-29 00:15:36,886 DEBUG cd /home/techsolutionz/this-bench && sudo supervisorctl restart frappe:
+2024-08-29 00:15:37,170 WARNING cd /home/techsolutionz/this-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-08-29 00:15:37,170 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-08-29 00:15:37,171 DEBUG cd this-bench && bench build
+2024-08-29 00:15:37,325 INFO /usr/local/bin/bench build
+2024-08-29 00:15:59,098 LOG setting up backups
+2024-08-29 00:15:59,160 LOG backups were set up
+2024-08-29 00:15:59,160 INFO Bench this-bench initialized
+2024-08-29 00:16:34,371 INFO /usr/local/bin/bench start
+2024-08-29 00:16:34,759 INFO /usr/local/bin/bench serve --port 8009
+2024-08-29 00:16:34,818 INFO /usr/local/bin/bench schedule
+2024-08-29 00:16:34,832 INFO /usr/local/bin/bench watch
+2024-08-29 00:16:34,881 INFO /usr/local/bin/bench worker
+2024-08-29 00:17:34,496 INFO /usr/local/bin/bench new-app library_manage
+2024-08-29 00:17:34,504 LOG creating new app library_manage
+2024-08-29 00:18:07,098 LOG Installing library_manage
+2024-08-29 00:18:07,101 DEBUG cd /home/techsolutionz/this-bench && /home/techsolutionz/this-bench/env/bin/python -m pip install --quiet --upgrade -e /home/techsolutionz/this-bench/apps/library_manage 
+2024-08-29 00:18:09,540 DEBUG bench build --app library_manage
+2024-08-29 00:18:09,679 INFO /usr/local/bin/bench build --app library_manage
+2024-08-29 00:18:36,228 DEBUG cd /home/techsolutionz/this-bench && sudo supervisorctl restart frappe:
+2024-08-29 00:18:36,506 WARNING cd /home/techsolutionz/this-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-08-29 00:18:36,506 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-08-29 00:18:57,648 INFO /usr/local/bin/bench new-site library.localhost
+2024-08-29 00:20:06,305 INFO /usr/local/bin/bench --site library.localhost add-to-hosts
+2024-08-29 00:22:55,409 INFO /usr/local/bin/bench --site library.localhost install library_manage
+2024-08-29 00:22:55,420 WARNING /usr/local/bin/bench --site library.localhost install library_manage executed with exit code 2
+2024-08-29 00:23:19,380 INFO /usr/local/bin/bench --site library.localhost install-app library_manage
+2024-08-29 00:24:42,843 INFO /usr/local/bin/bench --site library.localhost backup
+2024-08-29 00:25:16,733 INFO /usr/local/bin/bench set-sonfig -g developer_mode true
+2024-08-29 00:25:25,649 INFO /usr/local/bin/bench set-config -g developer_mode true
+2024-08-29 00:25:39,766 INFO /usr/local/bin/bench start
+2024-08-29 00:25:40,121 INFO /usr/local/bin/bench serve --port 8009
+2024-08-29 00:25:40,189 INFO /usr/local/bin/bench worker
+2024-08-29 00:25:40,210 INFO /usr/local/bin/bench schedule
+2024-08-29 00:25:40,283 INFO /usr/local/bin/bench watch
+2024-08-29 01:16:09,434 INFO /usr/local/bin/bench --site library.localhost mariadb
+2024-08-29 02:01:30,802 INFO /usr/local/bin/bench start
+2024-08-29 02:01:31,623 INFO /usr/local/bin/bench serve --port 8009
+2024-08-29 02:01:31,677 INFO /usr/local/bin/bench worker
+2024-08-29 02:01:31,929 INFO /usr/local/bin/bench schedule
+2024-08-29 02:01:31,972 INFO /usr/local/bin/bench watch
+2024-08-29 23:59:10,732 INFO /usr/local/bin/bench start
+2024-08-29 23:59:11,546 INFO /usr/local/bin/bench watch
+2024-08-29 23:59:11,563 INFO /usr/local/bin/bench schedule
+2024-08-29 23:59:11,584 INFO /usr/local/bin/bench serve --port 8009
+2024-08-29 23:59:11,735 INFO /usr/local/bin/bench worker
+2024-08-30 00:00:02,094 INFO /usr/local/bin/bench --verbose --site all backup
